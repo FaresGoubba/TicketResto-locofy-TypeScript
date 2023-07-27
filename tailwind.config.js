@@ -1,0 +1,100 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        mintcream: {
+          "100": "#f8fffd",
+          "200": "#ebfaf5",
+        },
+        "b-w-bw-4": "#333",
+        "b-w-bw-05": "#e6e6e6",
+        red: "#ff0000",
+        gray: {
+          "100": "#340927",
+          "200": "#13020d",
+          "300": "rgba(0, 0, 0, 0.8)",
+        },
+        mediumseagreen: "#00b586",
+        darkslategray: "#302f2f",
+        mediumaquamarine: "#83ceb9",
+        dimgray: "#565656",
+        whitesmoke: {
+          "100": "#f2f2f2",
+          "200": "rgba(245, 245, 245, 0.8)",
+        },
+        orange: "#f59e0b",
+        "g-secondary-g-s": "#f15d57",
+        "b-w-bw-15": "#b3b3b3",
+        "b-w-black": "#000",
+        "b-w-bw-1": "#ccc",
+        "b-w-white": "#fff",
+        "b-w-bw-2": "#999",
+        "g-states-g-wrong": "#d82c0d",
+        "g-primary-shade-g-ps-05": "#f6eef4",
+        "g-primary-g-p": "#ba1986",
+      },
+      fontFamily: {
+        "new-type-sm-sm-14-sm-14-b": "Poppins",
+        roboto: "Roboto",
+        montserrat: "Montserrat",
+      },
+      borderRadius: {
+        "8xs": "5px",
+        "4xs-3": "8.3px",
+        "6xs-6": "6.6px",
+        "3xs": "10px",
+        "11xl": "30px",
+        "12xs-4": "0.4px",
+        mini: "15px",
+        xl: "20px",
+        "11xs-5": "1.5px",
+        "7xl-5": "26.5px",
+        "9xs-3": "3.3px",
+        "31xl": "50px",
+        "2xl-5": "21.5px",
+        "mid-3": "17.3px",
+        lgi: "19px",
+        "12xs": "1px",
+      },
+    },
+    fontSize: {
+      sm: "14px",
+      xs: "12px",
+      "sm-2": "13.2px",
+      base: "16px",
+      xl: "20px",
+      "29xl": "48px",
+      "13xl": "32px",
+      "5xl": "24px",
+      "mid-9": "17.9px",
+      "9xl": "28px",
+      "17xl": "36px",
+      "3xs": "10px",
+      "45xl": "64px",
+      "26xl": "45px",
+      "base-4": "16.4px",
+    },
+    screens: {
+      lg: {
+        max: "1200px",
+      },
+      md: {
+        max: "960px",
+      },
+      sm: {
+        max: "420px",
+      },
+      mq350small: {
+        raw: "screen and (max-width: 350px)",
+      },
+      mq7: {
+        raw: "screen and (max-width: 1440px)",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
